@@ -2,7 +2,7 @@
 
 finished 2021/12
 
-### Task 1
+### Translation & Shifting
 1. `c4n y0u c4p7u23 7h3 f149?`
    * leet-speak
 2. `01101100 01100101 01110100 01110011 00100000 01110100 01110010 01111001 00100000 01110011 01101111 01101101 01100101 00100000 01100010 01101001 01101110 01100001 01110010 01111001 00100000 01101111 01110101 01110100 00100001`
@@ -41,7 +41,28 @@ finished 2021/12
    * <https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true)From_Morse_Code('Space','Line%20feed')From_Binary('Space',8)ROT47(47)>
    * finaly layer is ascii again, which I *again* decoded by hand.
 
-### Task 2
+### Spectrograms
 
-### Task 3
+* Downloaded task file
+* searched a bit for spectrum analyzer online
+* uploaded file, got the flag <https://academo.org/demos/spectrum-analyzer/>
+
+### Steganography
+
+* Downloaded task file
+* searched for steganography decoder online jpg
+* found some pages that didnt work
+* found this <https://www.futureboy.us/stegano/decinput.html> 
+* got the flag
+
 ### Task 4
+
+* Downloaded task file
+* opened the file in a text editor, scrolled to the end and found the filename & extension for the first flag.
+* however I didnt find the archive or another hidden text
+* eventually I found this nice collection <https://0xrick.github.io/lists/stego/>
+* tried steghide, which didnt really help, because it assumes encrypted content
+* tried foremost, which found the inner picture.
+* this led me to believe the inner picture has another layer of steganography inside it, which would be the final flag
+* after some frustrating hours trying to find the missing flag with binwalk, which found some zlib archiv, that turned out to be the picture encoding
+* I circled back and used strings on the file, turns out the flag was right next to the first one after all
