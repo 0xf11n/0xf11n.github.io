@@ -1,5 +1,4 @@
 ## c4ptur3th3fl4g.md
-
 finished 2021/12
 
 ### Translation & Shifting
@@ -42,21 +41,18 @@ finished 2021/12
    * finaly layer is ascii again, which I *again* decoded by hand.
 
 ### Spectrograms
-
 * Downloaded task file
 * searched a bit for spectrum analyzer online
 * uploaded file, got the flag <https://academo.org/demos/spectrum-analyzer/>
 
 ### Steganography
-
 * Downloaded task file
 * searched for steganography decoder online jpg
 * found some pages that didnt work
 * found this <https://www.futureboy.us/stegano/decinput.html> 
 * got the flag
 
-### Task 4
-
+### Security through obscurity 
 * Downloaded task file
 * opened the file in a text editor, scrolled to the end and found the filename & extension for the first flag.
 * however I didnt find the archive or another hidden text
@@ -66,3 +62,6 @@ finished 2021/12
 * this led me to believe the inner picture has another layer of steganography inside it, which would be the final flag
 * after some frustrating hours trying to find the missing flag with binwalk, which found some zlib archiv, that turned out to be the picture encoding
 * I circled back and used strings on the file, turns out the flag was right next to the first one after all
+
+### Conclusion
+great fun and because its based on encoding, you always know there is something.
