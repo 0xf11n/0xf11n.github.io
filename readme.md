@@ -10,4 +10,5 @@ Learning, using this as a place to order resources.
 
 ## Write-Ups
 
-1. [sdkjlsdkfjklsd](0xf11n.github.io/wu/0001.md)
+1. [sdkjlsdkfjklsd](wu/0001.md)
+2. <wu/0001.md>
