@@ -10,4 +10,4 @@ Learning, using this as a place to order resources.
 
 ## Write-Ups
 
-1. <../wu/0001.md>
+1. <./wu/0001.md>
