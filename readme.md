@@ -2,10 +2,8 @@
 
 ## Links
 
-### List of Steg Tools
-https://0xrick.github.io/lists/stego/
-### Spectrum Analyzer
-https://academo.org/demos/spectrum-analyzer/
+1. List of Steg Tools <https://0xrick.github.io/lists/stego/>
+2. Spectrum Analyzer <https://academo.org/demos/spectrum-analyzer/>
 
 
 
