@@ -10,4 +10,5 @@ Learning, using this as a place to order resources.
 
 ## Write-Ups
 
-1. [0001](wu/0001.md)
+1. [Test](wu/0001.md)
+2. [THM/c4ptur3th3fl4g](wu/thm_c4ptur3th3fl4g.md)
