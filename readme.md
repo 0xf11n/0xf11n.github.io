@@ -9,3 +9,5 @@ Learning, using this as a place to order resources.
 3. Markdown Cheatsheet <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
 
 ## Write-Ups
+
+1. <wu/0001.md>
