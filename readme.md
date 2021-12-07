@@ -8,6 +8,8 @@ Learning, using this as a place to order resources.
 2. Spectrum Analyzer <https://academo.org/demos/spectrum-analyzer/>
 3. Markdown Cheatsheet <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
 4. Living Off The Land Binaries, Scripts and Libraries <https://lolbas-project.github.io/>
+5. cyber chef encode & decode <https://gchq.github.io/CyberChef/>
+6. decode <https://www.dcode.fr/>
 
 ## Write-Ups
 
