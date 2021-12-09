@@ -10,6 +10,8 @@ Learning, using this as a place to order resources.
 4. Living Off The Land Binaries, Scripts and Libraries <https://lolbas-project.github.io/>
 5. cyber chef encode & decode <https://gchq.github.io/CyberChef/>
 6. decode <https://www.dcode.fr/>
+7. Eric Zimmermanns Tool <https://ericzimmerman.github.io/#!index.md>
+8. win shellbags <https://shehackske.medium.com/windows-shellbags-part-1-9aae3cfaf17>
 
 ## Write-Ups
 
