@@ -14,6 +14,7 @@ Learning, using this as a place to order resources.
 8. win shellbags <https://shehackske.medium.com/windows-shellbags-part-1-9aae3cfaf17>
 9. proc herpaderping <https://jxy-s.github.io/herpaderping/>
 10. <https://github.com/HarmJ0y/CheatSheets>
+11. find more about a domain (subdomains, mx, etc.) <https://dnsdumpster.com/>
 
 ## Write-Ups
 
