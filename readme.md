@@ -15,6 +15,7 @@ Learning, using this as a place to order resources.
 9. proc herpaderping <https://jxy-s.github.io/herpaderping/>
 10. <https://github.com/HarmJ0y/CheatSheets>
 11. find more about a domain (subdomains, mx, etc.) <https://dnsdumpster.com/>
+12. apt list <https://www.mandiant.com/resources/apt-groups>
 
 ## Write-Ups
 
