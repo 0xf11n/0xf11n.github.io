@@ -12,6 +12,7 @@ Learning, using this as a place to order resources.
 6. decode <https://www.dcode.fr/>
 7. Eric Zimmermanns Tool <https://ericzimmerman.github.io/#!index.md>
 8. win shellbags <https://shehackske.medium.com/windows-shellbags-part-1-9aae3cfaf17>
+9. proc herpaderping <https://jxy-s.github.io/herpaderping/>
 
 ## Write-Ups
 
