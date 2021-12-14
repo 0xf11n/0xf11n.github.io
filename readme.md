@@ -19,6 +19,7 @@ Learning, using this as a place to order resources.
 13. mitre car <https://car.mitre.org/>
 14. sec infographics, yara, sigma, rdp, etc. <https://medium.com/malware-buddy/security-infographics-9c4d3bd891ef>
 15. edr bypass, scarecrow <https://github.com/optiv/ScareCrow>
+16. Ghirda <https://github.com/NationalSecurityAgency/ghidra/releases>
 
 ## Write-Ups
 
