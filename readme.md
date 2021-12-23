@@ -23,6 +23,7 @@ Learning, using this as a place to order resources.
 17. Reverse Shell Cheat Sheet <https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md>
 18. crackstation <https://crackstation.net/>
 19. ole dump <https://blog.didierstevens.com/programs/oledump-py/>
+20. socat <https://linux.die.net/man/1/socat>
 
 ## Write-Ups
 
