@@ -24,6 +24,7 @@ Learning, using this as a place to order resources.
 18. crackstation <https://crackstation.net/>
 19. ole dump <https://blog.didierstevens.com/programs/oledump-py/>
 20. socat <https://linux.die.net/man/1/socat>
+21. Sec List Wordlists <https://github.com/danielmiessler/SecLists>
 
 ## Write-Ups
 
