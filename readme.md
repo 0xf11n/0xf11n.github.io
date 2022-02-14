@@ -25,6 +25,7 @@ Learning, using this as a place to order resources.
 19. ole dump <https://blog.didierstevens.com/programs/oledump-py/>
 20. socat <https://linux.die.net/man/1/socat>
 21. Sec List Wordlists <https://github.com/danielmiessler/SecLists>
+22. Hash ID <https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master>
 
 ## Write-Ups
 
