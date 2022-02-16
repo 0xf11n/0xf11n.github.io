@@ -30,6 +30,8 @@ Learning, using this as a place to order resources.
 24. RSA CTF Tool <https://github.com/Ganapati/RsaCtfTool>
 25. RSA Tool <https://github.com/ius/rsatool>
 26. RSA Intro <https://muirlandoracle.co.uk/2020/01/29/rsa-encryption/>
+27. better port list <https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt>
+28. unpack malware <https://github.com/hasherezade/mal_unpack>
 
 ## Write-Ups
 
