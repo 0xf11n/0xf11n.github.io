@@ -27,6 +27,9 @@ Learning, using this as a place to order resources.
 21. Sec List Wordlists <https://github.com/danielmiessler/SecLists>
 22. Hash ID <https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master>
 23. Hash Identifier (online) <https://hashes.com/en/tools/hash_identifier>
+24. RSA CTF Tool <https://github.com/Ganapati/RsaCtfTool>
+25. RSA Tool <https://github.com/ius/rsatool>
+26. RSA Intro <https://muirlandoracle.co.uk/2020/01/29/rsa-encryption/>
 
 ## Write-Ups
 
