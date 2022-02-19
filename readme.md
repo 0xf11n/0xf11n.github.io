@@ -32,6 +32,8 @@ Learning, using this as a place to order resources.
 26. RSA Intro <https://muirlandoracle.co.uk/2020/01/29/rsa-encryption/>
 27. better port list <https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt>
 28. unpack malware <https://github.com/hasherezade/mal_unpack>
+29. GTFO Bins <https://gtfobins.github.io/>
+30. lin(ux)enum.sh <https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh>
 
 ## Write-Ups
 
