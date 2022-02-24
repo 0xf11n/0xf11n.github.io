@@ -34,6 +34,7 @@ Learning, using this as a place to order resources.
 28. unpack malware <https://github.com/hasherezade/mal_unpack>
 29. GTFO Bins <https://gtfobins.github.io/>
 30. lin(ux)enum.sh <https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh>
+31. Backdoors <https://github.com/backdoorhub/shell-backdoor-list>
 
 ## Write-Ups
 
