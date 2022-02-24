@@ -35,6 +35,7 @@ Learning, using this as a place to order resources.
 29. GTFO Bins <https://gtfobins.github.io/>
 30. lin(ux)enum.sh <https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh>
 31. Backdoors <https://github.com/backdoorhub/shell-backdoor-list>
+32. php reverse shell <https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php>
 
 ## Write-Ups
 
