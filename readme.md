@@ -36,6 +36,7 @@ Learning, using this as a place to order resources.
 30. lin(ux)enum.sh <https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh>
 31. Backdoors <https://github.com/backdoorhub/shell-backdoor-list>
 32. php reverse shell <https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php>
+33. PowerUp (win priv escalation) <https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1>
 
 ## Write-Ups
 
