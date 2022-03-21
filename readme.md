@@ -38,6 +38,7 @@ Learning, using this as a place to order resources.
 32. php reverse shell <https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php>
 33. PowerUp (win priv escalation) <https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1>
 34. fuff FUZZ <https://github.com/ffuf/ffuf>
+35. sysinternals https://docs.microsoft.com/en-us/sysinternals/downloads/
 
 ## Write-Ups
 
