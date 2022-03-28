@@ -31,14 +31,15 @@ Learning, using this as a place to order resources.
 25. RSA Tool <https://github.com/ius/rsatool>
 26. RSA Intro <https://muirlandoracle.co.uk/2020/01/29/rsa-encryption/>
 27. better port list <https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt>
-28. unpack malware <https://github.com/hasherezade/mal_unpack>
-29. GTFO Bins <https://gtfobins.github.io/>
-30. lin(ux)enum.sh <https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh>
-31. Backdoors <https://github.com/backdoorhub/shell-backdoor-list>
-32. php reverse shell <https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php>
-33. PowerUp (win priv escalation) <https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1>
-34. fuff FUZZ <https://github.com/ffuf/ffuf>
-35. sysinternals https://docs.microsoft.com/en-us/sysinternals/downloads/
+28. known malware ports <https://docs.google.com/spreadsheets/d/17pSTDNpa0sf6pHeRhusvWG6rThciE8CsXTSlDUAZDyo/edit#gid=0>
+29. unpack malware <https://github.com/hasherezade/mal_unpack>
+30. GTFO Bins <https://gtfobins.github.io/>
+31. lin(ux)enum.sh <https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh>
+32. Backdoors <https://github.com/backdoorhub/shell-backdoor-list>
+33. php reverse shell <https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php>
+34. PowerUp (win priv escalation) <https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1>
+35. fuff FUZZ <https://github.com/ffuf/ffuf>
+36. sysinternals https://docs.microsoft.com/en-us/sysinternals/downloads/
 
 ## Write-Ups
 
