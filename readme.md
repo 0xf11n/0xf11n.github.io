@@ -40,6 +40,7 @@ Learning, using this as a place to order resources.
 34. PowerUp (win priv escalation) <https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1>
 35. fuff FUZZ <https://github.com/ffuf/ffuf>
 36. sysinternals https://docs.microsoft.com/en-us/sysinternals/downloads/
+37. Forensics links <https://start.me/p/q6mw4Q/forensics>
 
 ## Write-Ups
 
