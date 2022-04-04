@@ -41,6 +41,7 @@ Learning, using this as a place to order resources.
 35. fuff FUZZ <https://github.com/ffuf/ffuf>
 36. sysinternals https://docs.microsoft.com/en-us/sysinternals/downloads/
 37. Forensics links <https://start.me/p/q6mw4Q/forensics>
+38. win proc integrity levels <https://book.hacktricks.xyz/windows/windows-local-privilege-escalation/integrity-levels>
 
 ## Write-Ups
 
