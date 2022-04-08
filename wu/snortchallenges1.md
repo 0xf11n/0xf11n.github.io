@@ -29,7 +29,7 @@ unfinished 2022/04
    * 614
 2. `ftp service name`
    * didnt find a nice filter, so 'sudo snort -X -v -r ftp-png-gif.pcap > fulldump'
-   * cat fulldump | grep 220
+   * cat fulldump \| grep 220
    * microsoft ftp service
 3. `number of failed ftp logins`
    * alert tcp any any <> any any (msg: "Failed login FTP"; content:"530 "; sid:1000004;rev:1;)
