@@ -93,10 +93,17 @@ unfinished 2022/04
    * -> 12
 3. `request path`
    * sudo snort -c local-1.rules -A full -dev -l . -K ASCII -r ms-17-010.pcap
-   * cat * | grep \\\\ -A 2
+   * cat * \| grep \\\\ -A 2
    * -> \\192.168.116.138\IPC$
 4. `CVSS v2 score of MS17-010 `
    * https://nvd.nist.gov/vuln/detail/cve-2017-0144
    * -> 9.3
 
-
+### Task 8
+1. `number of detected packets with given ruleset`
+   * just run sudo snort -c local.rules -r log4j.pcap
+   * -> 26
+2. `number of rules triggered`
+   * all used sids are 8 digits, thus we can just cat, grep, sort
+   * cat alert \| egrep -o '\[1\:\[0-9\]{8}\:1\]' \| sort \| uniq
+   * -> 4
