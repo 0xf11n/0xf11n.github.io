@@ -105,5 +105,5 @@ unfinished 2022/04
    * -> 26
 2. `number of rules triggered`
    * all used sids are 8 digits, thus we can just cat, grep, sort
-   * cat alert \| egrep -o '\[1\:\[0-9\]{8}\:1\]' \| sort \| uniq
+   * cat alert | egrep -o '\\[1\\:[0-9]{8}\\:1\\]' | sort | uniq
    * -> 4
