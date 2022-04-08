@@ -54,4 +54,16 @@ unfinished 2022/04
    * again run with -d -e -v, one of the logs will show the magic bytes for GIF
    * -> GIF89a
 
-
+### Task 5
+1. `detect torrent meta file`
+   * alert tcp any any <> any any (msg: "torrent File"; content: ".torrent"; sid: 100001; rev:1;)
+   * -> 2
+2. `name of the torrent application`
+   * run rule from 5.1. with -d -e -v, one of the logs will have application/x- header
+   * -> bittorent
+3. `MIME type of torrent file`
+   * run rule from 5.1. with -d -e -v, the data we used in 2 is the MIME type
+   * -> application/x-bittorrent
+4. `hostname of the torrent metafile`
+   * run rule from 5.1. with -d -e -v, look for 'Host:'
+   * -> tracker2.torrentbox.com
