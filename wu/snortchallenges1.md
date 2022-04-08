@@ -68,7 +68,7 @@ unfinished 2022/04
    * run rule from 5.1. with -d -e -v, look for 'Host:'
    * -> tracker2.torrentbox.com
 
-### Task 6 - fix issues with local.rules files
+### Task 6 - fix issues with local-X.rules files
 1. missing space between last 'any' and '('
    * -> 16
 2. 'port value missing in rule', must be 'icmp any any' instead of 'icmp any'
