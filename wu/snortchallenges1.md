@@ -26,22 +26,32 @@ unfinished 2022/04
 1. `detect all TCP port 21`
    * alert tcp any 21 <> any any (msg: "TCP Port 21";sid:1000001;rev:1;)
    * alert tcp any any <> any 21 (msg: "TCP Port 21";sid:1000002;rev:1;)
-   * 614
+   * -> 614
 2. `ftp service name`
    * didnt find a nice filter, so 'sudo snort -X -v -r ftp-png-gif.pcap > fulldump'
    * cat fulldump \| grep 220
-   * microsoft ftp service
+   * -> microsoft ftp service
 3. `number of failed ftp logins`
    * alert tcp any any <> any any (msg: "Failed login FTP"; content:"530 "; sid:1000004;rev:1;)
-   * 41
+   * -> 41
 4. `number of successful ftp logins`
    * alert tcp any any <> any any (msg: "Login FTP"; content:"230 User"; sid:1000005;rev:1;)
-   * 1
+   * -> 1
 5. `number of failed logins with valid user`
    * alert tcp any any <> any any (msg: "User ok, need pass"; content:"331 Password"; sid:1000006;rev:1;)
-   * 42
+   * -> 42
 6. `number of failed logins with user Administrator`
    * alert tcp any any <> any any (msg: "User Admin, need pass"; content:"331 Password required for Administrator"; sid:1000007;rev:1;)
-   * 7
+   * -> 7
 
 ### Task 4
+1. `detect PNG files and find embedded software`
+   * alert tcp any any <> any any (msg: "PNG File"; content: "PNG"; sid: 100001; rev:1;)
+   * run snort with -d -e -v do get full package data: sudo snort -c local.rules -A full -d -e -v -l . -K ASCII -r ftp-png-gif.pcap 
+   * -> Adobe ImageReady
+2. `detect GIF file and find image format`
+   * alert tcp any any <> any any (msg: "GIF File"; content: "GIF"; sid: 100002; rev:1;)
+   * again run with -d -e -v, one of the logs will show the magic bytes for GIF
+   * -> GIF89a
+
+
