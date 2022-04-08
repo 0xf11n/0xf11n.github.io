@@ -12,15 +12,15 @@ unfinished 2022/04
 3. `ACK number of packet 64?`
    * work around from above no longer works as we more info using '-A full'
    * ACK numbers tend to get reused, so I just tried a few
-   * 0x38AFFFF3
+   * -> 0x38AFFFF3
 4. `SEQ number of packet 62?`
-   * 0x38AFFFF3
+   * -> 0x38AFFFF3
 5. `TTL of packet 65`
-   * 128
+   * -> 128
 6. `soure IP of packet 65`
-   * 145.254.160.237
+   * -> 145.254.160.237
 7. `soure port of packet 65`
-   * 3372
+   * -> 3372
 
 ### Task3
 1. `detect all TCP port 21`
