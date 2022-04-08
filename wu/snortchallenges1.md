@@ -7,7 +7,7 @@ unfinished 2022/04
    * alert tcp any any <> any 80 (msg: "TCP Port 80";sid:1000002;rev:1;)
    * -> 328
 2. `destination address of packet 63`
-   * write alerts file w\ '-A fast', grep file line numbers 'cat -n' and grep for line '63'
+   * write alerts file with '-A fast', grep file line numbers 'cat -n' and grep for line '63'
    * -> 145.254.160.237
 3. `ACK number of packet 64?`
    * work around from above no longer works as we more info using '-A full'
@@ -83,3 +83,13 @@ unfinished 2022/04
    * -> 2
 7. rule is looking for '.html', but is missing a message block
    * -> msg
+
+### Task 7
+1. `number of detected packets with given ruleset`
+   * -> just run sudo snort -c local.rules -r ms-17-010.pcap
+   * -> 25154
+2. `number of packets with \IPC$`
+   * alert tcp any any -> any any (msg: "IPC Detected!"; content: "\\IPC$";sid: 20244225; rev:3;)
+   * -> 12
+3. sudo snort -c local-1.rules -A full -dev -l . -K ASCII -r ms-17-010.pcap
+   * -> 
