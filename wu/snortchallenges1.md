@@ -93,8 +93,8 @@ unfinished 2022/04
    * -> 12
 3. `request path`
    * sudo snort -c local-1.rules -A full -dev -l . -K ASCII -r ms-17-010.pcap
-   * cat * \| grep \\\\ -A 2
-   * -> \\192.168.116.138\IPC$
+   * cat * \| grep \\\\\\\\ -A 2
+   * -> \\\\192.168.116.138\IPC$
 4. `CVSS v2 score of MS17-010 `
    * https://nvd.nist.gov/vuln/detail/cve-2017-0144
    * -> 9.3
@@ -105,7 +105,7 @@ unfinished 2022/04
    * -> 26
 2. `number of rules triggered`
    * all used sids are 8 digits, thus we can just cat, grep, sort
-   * cat alert | egrep -o '\\[1\\:[0-9]{8}\\:1\\]' | sort | uniq
+   * cat alert \| egrep -o '\\[1\\:[0-9]{8}\\:1\\]' \| sort \| uniq
    * -> 4
 3. `first 6 digits of triggered rules`
    * use command from 8.2.
