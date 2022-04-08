@@ -91,5 +91,12 @@ unfinished 2022/04
 2. `number of packets with \IPC$`
    * alert tcp any any -> any any (msg: "IPC Detected!"; content: "\\IPC$";sid: 20244225; rev:3;)
    * -> 12
-3. sudo snort -c local-1.rules -A full -dev -l . -K ASCII -r ms-17-010.pcap
-   * -> 
+3. `request path`
+   * sudo snort -c local-1.rules -A full -dev -l . -K ASCII -r ms-17-010.pcap
+   * cat * | grep \\\\ -A 2
+   * -> \\192.168.116.138\IPC$
+4. `CVSS v2 score of MS17-010 `
+   * https://nvd.nist.gov/vuln/detail/cve-2017-0144
+   * -> 9.3
+
+
