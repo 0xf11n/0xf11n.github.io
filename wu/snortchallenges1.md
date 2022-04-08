@@ -67,3 +67,12 @@ unfinished 2022/04
 4. `hostname of the torrent metafile`
    * run rule from 5.1. with -d -e -v, look for 'Host:'
    * -> tracker2.torrentbox.com
+
+### Task 6 - fix issues with local.rules files
+1. 16: missing space between last 'any' and '('
+2. 68: 'port value missing in rule', must be 'icmp any any' instead of 'icmp any'
+3. 87: double sid
+4. 90: missing ';' after msg and double sid
+5. 155: rule direction '<-' not allowed, missing ';' after msg and 'sid;' instead of 'sid:'
+6. 2: missing 'nocase;' after content
+7. msg: rule is looking for '.html', but is missing a message block
