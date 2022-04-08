@@ -47,3 +47,4 @@ Learning, using this as a place to order resources.
 
 1. [Test](wu/0001.md)
 2. [THM/c4ptur3th3fl4g](wu/thm_c4ptur3th3fl4g.md)
+3. [THM/snortchallenges1.md] (wu/snortchallenges1.md)
