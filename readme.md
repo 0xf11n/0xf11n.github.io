@@ -43,6 +43,7 @@ Learning, using this as a place to order resources.
 37. Forensics links <https://start.me/p/q6mw4Q/forensics>
 38. win proc integrity levels <https://book.hacktricks.xyz/windows/windows-local-privilege-escalation/integrity-levels>
 39. browser user agents <https://developers.whatismybrowser.com/useragents/explore/>
+40. UACme, UAC bypass tester <https://github.com/hfiref0x/UACME>
 
 ## Write-Ups
 
